@@ -28,3 +28,4 @@ insert into skills_job_dim (skill_id, job_id)
 select skill_id, job_id
 from read_csv('https://storage.googleapis.com/sql_de/skills_job_dim.csv',
     auto_detect=true);
+
